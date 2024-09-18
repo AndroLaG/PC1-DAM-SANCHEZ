@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#7AFDFA"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,6 +15,68 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es rapido y facil."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrarte"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <EditText
+        android:id="@+id/txtnom"
+        android:layout_width="186dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="96dp"
+        android:background="#E9E7E7"
+        android:ems="10"
+        android:inputType="text"
+        android:scrollbarStyle="outsideInset"
+        android:text="Nombre"
+        android:textAlignment="viewStart"
+        android:textColor="#615E5E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/txtape"
+        android:layout_width="173dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="96dp"
+        android:background="#E9E7E7"
+        android:ems="10"
+        android:inputType="text"
+        android:scrollbarStyle="outsideInset"
+        android:text="Apellido"
+        android:textAlignment="viewStart"
+        android:textColor="#615E5E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
